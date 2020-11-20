@@ -1,0 +1,162 @@
+/** BASE STYLES **/
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 200px;
+    font-size: 36px;
+    text-align: center;
+}
+
+/** GRID **/
+section {
+    height: 1050px;
+}
+
+.full-width {
+    width: 100%;
+    overflow: auto;
+}
+
+.third-width {
+    box-sizing: border-box;
+    width: 400px;
+    float: left;
+}
+
+/** HEADER **/
+header {
+    height: 800px;
+    overflow: auto;
+}
+
+nav {
+    float: right;
+    margin: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: right;
+}
+
+nav ul li a {
+    color: #028090;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header h1 {
+    font-size: 64px;
+    margin-top: 240px;
+    margin-bottom: 20px;
+    padding: 0 80px;
+}
+
+header p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 48px;
+    padding: 0px 80px;
+    margin: 0;
+}
+
+/** ABOUT **/
+#about {
+    background: #028090;
+    color: #ffffff;
+    height: 1050px;
+}
+#about p {
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 60px;
+    padding: 0 250px;
+    text-align: center;
+}
+#about p #headshot-img {
+    border: 5px solid #ffffff;
+    width: 300px;
+}
+/** WORK **/
+#work {
+    height: 850px;
+    margin: 0 auto;
+}
+#work .thirds-wrap {
+    margin: 0 auto;
+    width: 1200px;
+}
+#jubilee-screenshot, #rogue-screenshot, #recipe-screenshot {
+    border: 1px solid #b7b7b7;
+    height: 200px;
+    padding: 50px 50px 20px 50px;
+}
+#work h3 {
+    font-size: 20px;
+    text-align: center;
+}
+#work p {
+    font-size: 20px;
+    padding: 0 50px;
+    text-align: center;
+}
+
+/** CONTACT **/
+#contact {
+    background: #028090;
+    color: #ffffff;
+    height: 650px;
+    text-align: center;
+}
+#contact .thirds-wrap {
+    margin: 0 auto;
+    width: 1200px;
+}
+#contact a {
+    color: #ffffff;
+    text-decoration: none;
+}
+#contact ul {
+    margin: 20px;
+    padding: 20px 0;
+}
+#contact ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+#contact ul li i {
+    font-size: 24px;
+}
+#contact h3 {
+    font-size: 20px;
+}
+#contact p {
+    font-size: 20px;
+    padding: 20px 50px;
+}
+
+/** FOOTER **/
+footer {
+    margin: 20px;   
+}
+
+
+
+
+
+/**
+css box-size checker:
+border: 1px solid black;
+
+color palette:
+#05668d, #028090, #00a896, #02c39a,# f0f3bd
+**/
