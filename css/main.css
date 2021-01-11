@@ -1,22 +1,31 @@
 /** BASE STYLES **/
+html {
+    font-size: 16px;
+}
+
 body {
     font-family: 'Karla', sans-serif;
 }
 
 h1 {
     font-family: 'Libre Baskerville', serif;
+    font-size: 2em;
 }
 
 h2 {
     font-family: 'Libre Baskerville', serif;
-    margin-top: 200px;
-    font-size: 36px;
+    font-size: 1.5em;
     text-align: center;
 }
 
+.content-wrapper {
+    width: 90%;
+    margin: 50px 0;
+  }
+
 /** GRID **/
 section {
-    height: 1050px;
+
 }
 
 .full-width {
@@ -24,48 +33,85 @@ section {
     overflow: auto;
 }
 
-.third-width {
-    box-sizing: border-box;
-    width: 400px;
-    float: left;
-}
+
 
 /** HEADER **/
 header {
-    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
     overflow: auto;
 }
 
+header .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.header-divider {
+    height: 2px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
 nav {
-    float: right;
-    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 20px 0;
+
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
 }
 
 nav ul li {
-    display: inline-block;
-    text-align: right;
+    list-style: none;
+    padding: 10px;
+
 }
 
 nav ul li a {
     color: #028090;
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: 700;
-    padding: 25px;
     text-transform: uppercase;
     text-decoration: none;
 }
 
-header h1 {
-    font-size: 64px;
-    margin-top: 240px;
-    margin-bottom: 20px;
-    padding: 0 80px;
+/** HERO AREA **/
+.hero-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-header p {
+.hero-area .content-wrapper {
+
+}
+
+.hero-area h1 {
+    font-size: 2.25em;
+}
+
+.hero-area p {
     font-family: 'Libre Baskerville', serif;
-    font-size: 48px;
-    padding: 0px 80px;
+    font-size: 1.25em;
     margin: 0;
 }
 
@@ -73,13 +119,19 @@ header p {
 #about {
     background: #028090;
     color: #ffffff;
-    height: 1050px;
+    display: flex;
+    justify-content: center;
+}
+
+#about .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
 }
 #about p {
-    font-size: 24px;
-    line-height: 32px;
-    margin-top: 60px;
-    padding: 0 250px;
+    font-size: 1em;
+    line-height: 1.25em;
     text-align: center;
 }
 #about p #headshot-img {
@@ -88,12 +140,21 @@ header p {
 }
 /** WORK **/
 #work {
-    height: 850px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
+
 #work .thirds-wrap {
-    margin: 0 auto;
-    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+#work .third-width {
+    box-sizing: border-box;
+    width: 400px;
+    float: left;
 }
 #jubilee-screenshot, #rogue-screenshot, #recipe-screenshot {
     border: 1px solid #b7b7b7;
@@ -101,11 +162,11 @@ header p {
     padding: 50px 50px 20px 50px;
 }
 #work h3 {
-    font-size: 20px;
+    font-size: 1em;
     text-align: center;
 }
 #work p {
-    font-size: 20px;
+    font-size: 1em;
     padding: 0 50px;
     text-align: center;
 }
@@ -134,13 +195,13 @@ header p {
     padding: 0 20px;
 }
 #contact ul li i {
-    font-size: 24px;
+    font-size: 1.5em;
 }
 #contact h3 {
-    font-size: 20px;
+    font-size: 1em;
 }
 #contact p {
-    font-size: 20px;
+    font-size: 1em;
     padding: 20px 50px;
 }
 
