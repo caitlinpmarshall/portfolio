@@ -1,6 +1,6 @@
 /** BASE STYLES **/
 html {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 body {
@@ -162,13 +162,14 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
-    margin: 40px 0;
+    margin: 50px 0;
 }
 
 .gallery-item .thumbnail {
     border: 2px solid #b7b7b7;
     width: 100%;
 }
+
 #work h3 {
     margin: 10px;
 }
@@ -228,6 +229,10 @@ footer .content-wrapper {
 }
 
 @media screen and (min-width: 768px) {
+    body {
+        background-color: cornsilk;
+    }
+
     header .content-wrapper {
         flex-flow: row wrap;
         justify-content: space-between;
@@ -251,6 +256,7 @@ footer .content-wrapper {
         width: 100%;
         display: flex;
         justify-content: space-between;
+        margin: 50px 0;
     }
 
     #about .about-image {
@@ -304,8 +310,12 @@ footer .content-wrapper {
 } /* end of TABLET media query */
 
 @media screen and (min-width: 1200px) {
+    body {
+        background-color: lavender;
+    }
+
     .hero-area h1 {
-        font-size: 4em;
+        font-size: 3.75em;
     }
     
     .hero-area p {
@@ -314,15 +324,23 @@ footer .content-wrapper {
         margin: 0;
     }
 
+    #work .gallery {
+        justify-content: space-around;
+    }
 
+    #work .gallery-item {
+        min-width: 490px;
+        max-width: 35%;
+    }
+
+    #contact .contact-item {
+        max-width: 325px;
+    }
 
 
 } /* end of DESKTOP media query */
 
 /**
-css box-size checker:
-border: 1px solid black;
-
 color palette:
 #05668d, #028090, #00a896, #02c39a,# f0f3bd
 **/
