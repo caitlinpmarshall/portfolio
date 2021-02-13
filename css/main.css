@@ -229,10 +229,6 @@ footer .content-wrapper {
 }
 
 @media screen and (min-width: 768px) {
-    body {
-        background-color: cornsilk;
-    }
-
     header .content-wrapper {
         flex-flow: row wrap;
         justify-content: space-between;
@@ -240,6 +236,11 @@ footer .content-wrapper {
 
     .header-divider {
         display: none;
+    }
+
+    .hero-area h1 {
+        font-size: 2.5em;
+        max-width: 700px;
     }
 
     nav ul {
@@ -250,6 +251,10 @@ footer .content-wrapper {
     
     nav ul li {
         padding: 0;
+    }
+
+    .hero-area .content-wrapper {
+        margin: 50px 0 200px 0;
     }
 
     .about-details {
@@ -285,7 +290,7 @@ footer .content-wrapper {
 
     #work .gallery {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: flex-start;
         flex-flow: row wrap;
     }
@@ -310,22 +315,19 @@ footer .content-wrapper {
 } /* end of TABLET media query */
 
 @media screen and (min-width: 1200px) {
-    body {
-        background-color: lavender;
+    .hero-area .content-wrapper {
+        margin: 50px 0 300px 0;
     }
-
+    
     .hero-area h1 {
         font-size: 3.75em;
+        max-width: 1100px;
     }
     
     .hero-area p {
         font-family: 'Libre Baskerville', serif;
         font-size: 2em;
         margin: 0;
-    }
-
-    #work .gallery {
-        justify-content: space-around;
     }
 
     #work .gallery-item {
