@@ -4,7 +4,8 @@ html {
 }
 
 body {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
 }
 
 h1 {
@@ -16,6 +17,10 @@ h2 {
     font-family: 'Libre Baskerville', serif;
     font-size: 1.5em;
     text-align: center;
+}
+
+h3 {
+    font-weight: 300;
 }
 
 .content-wrapper {
@@ -82,7 +87,6 @@ nav ul li {
 nav ul li a {
     color: #028090;
     font-size: 1.25em;
-    font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -141,6 +145,12 @@ nav ul li a {
     margin-top: 5px;
     width: 70%;
     max-width: 300px;
+}
+
+#about span {
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    
 }
 /** WORK **/
 #work {
@@ -246,7 +256,7 @@ footer .content-wrapper {
     nav ul {
         justify-content: space-between;
         flex-flow: row wrap;
-        width: 265px;
+        width: 350px;
     }
     
     nav ul li {
