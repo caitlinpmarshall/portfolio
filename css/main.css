@@ -91,6 +91,10 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav #blog {
+    font-weight: 700;
+}
+
 /** HERO AREA **/
 .hero-area {
     display: flex;
