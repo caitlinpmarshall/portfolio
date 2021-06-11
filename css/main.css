@@ -195,6 +195,19 @@ nav #blog {
     margin: 0;
 }
 
+/** TESTIMONIALS **/
+#testimonials {
+    display: flex;
+    justify-content: center;
+}
+
+#testimonials .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
 /** CONTACT **/
 #contact {
     background: #028090;
