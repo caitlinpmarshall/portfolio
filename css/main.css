@@ -195,6 +195,29 @@ nav #blog {
     margin: 0;
 }
 
+/** BLOG WORK SAMPLE **/
+#blog-sample {
+    display: flex;
+    justify-content: center;
+}
+
+#blog-sample .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+#blog-sample p {
+    text-align: center;
+}
+
+#blog-sample a {
+    text-decoration: none;
+    color:#028090;
+    font-weight: bold;
+}
+
 /** TESTIMONIALS **/
 #testimonials {
     display: flex;
