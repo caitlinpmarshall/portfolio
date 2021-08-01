@@ -91,9 +91,23 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav #blog {
+nav ul li a:hover {
     font-weight: 700;
 }
+
+/** sticky header **/
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
 
 /** HERO AREA **/
 .hero-area {
