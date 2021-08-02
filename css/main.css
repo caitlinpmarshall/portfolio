@@ -41,6 +41,7 @@ header {
     align-items: center;
     flex-flow: row wrap;
     overflow: auto;
+    background-color: #fff;
 }
 
 header .content-wrapper {
@@ -96,28 +97,19 @@ nav ul li a:hover {
 }
 
 /** sticky header **/
-
-/* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
     position: fixed;
     top: 0;
     width: 100%
   }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
-    padding-top: 102px;
-  }
+ 
+
 
 /** HERO AREA **/
 .hero-area {
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-
-.hero-area .content-wrapper {
 
 }
 
@@ -194,8 +186,13 @@ nav ul li a:hover {
 }
 
 .gallery-item .thumbnail {
+    box-sizing: border-box;
     border: 2px solid #b7b7b7;
     width: 100%;
+}
+
+.gallery-item .thumbnail:hover {
+    border: 5px solid #028090;
 }
 
 #work h3 {
@@ -275,9 +272,6 @@ nav ul li a:hover {
 }
 #contact h3 {
     font-size: 1em;
-}
-#contact p {
-
 }
 
 /** FOOTER **/
