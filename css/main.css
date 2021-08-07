@@ -190,6 +190,14 @@ nav ul li a:hover {
     align-items: center;
     flex-flow: column wrap;
     margin: 50px 0;
+    opacity: 0;
+    -webkit-transition: opacity 1s .25s ease-out;
+    transition: opacity 1s .25s ease-out;
+    will-change: opacity;
+}
+
+#work .gallery-item.is-visible {
+    opacity: 1;
 }
 
 .gallery-item .thumbnail {
