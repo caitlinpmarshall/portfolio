@@ -110,7 +110,14 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    -webkit-transition: opacity 1s .25s ease-out;
+    transition: opacity 1s .25s ease-out;
+    will-change: opacity;
+}
 
+.hero-area.is-visible {
+    opacity: 1;
 }
 
 .hero-area h1 {
