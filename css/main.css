@@ -96,16 +96,16 @@ nav ul li a:hover {
     font-weight: 700;
 }
 
-/** sticky header **/
+/** sticky header -- JS **/
 .sticky {
+    background-color: #fff;
     position: fixed;
     top: 0;
-    width: 100%
+    width: 100%;
+    z-index:9999
   }
- 
 
-
-/** HERO AREA **/
+/** HERO AREA -- JS **/
 .hero-area {
     display: flex;
     justify-content: center;

@@ -1,4 +1,4 @@
-/** sticky header - removed while trying on scroll transitions 
+/** sticky header **/ 
 const header = document.getElementById("myHeader");
 const sticky = header.offsetTop;
 
@@ -11,9 +11,9 @@ function stickIt() {
 } 
 
 window.onscroll = function() {stickIt()};
-**/
 
-//ON SCROLL TRANSITION IN ELEMENTS
+
+//ON SCROLL TRANSITION-IN ELEMENTS
 
 // detect request animation frame
 var scroll = window.requestAnimationFrame || function(callback) {window.setTimeout(callback, 1000/60)};
@@ -53,3 +53,4 @@ function isElementInViewport(el) {
         rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
     );
   }
+
