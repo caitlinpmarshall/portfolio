@@ -61,6 +61,11 @@ header .content-wrapper {
     background-color: #000;
 }
 
+.logo a {
+    color: #000;
+    text-decoration: none;
+}
+
 nav {
     display: flex;
     justify-content: center;
@@ -110,25 +115,40 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+.hero-area h1 {
+    font-size: 2.25em;
     opacity: 0;
     -webkit-transition: opacity 1s .25s ease-out;
     transition: opacity 1s .25s ease-out;
     will-change: opacity;
 }
 
-.hero-area.is-visible {
+.hero-area h1.is-visible {
     opacity: 1;
 }
 
-.hero-area h1 {
-    font-size: 2.25em;
+.hero-area h1 span {
+    opacity: 0;
+    -webkit-transition: opacity 2s .25s ease-out;
+    transition: opacity 2s .25s ease-out;
+    transition-delay: 1s;
+
 }
 
+.hero-area h1 span.is-visible {
+    opacity: 1;
+}
+
+/* for tagline, if I come up with a new one
 .hero-area p {
     font-family: 'Libre Baskerville', serif;
     font-size: 1.25em;
     margin: 0;
 }
+*/
 
 /** ABOUT **/
 #about {
