@@ -385,6 +385,11 @@ footer .content-wrapper {
         max-width: 600px;
     }
 
+    #about .big-c-logo {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 80px;
+    }
+
     #work .gallery {
         display: flex;
         justify-content: space-around;
