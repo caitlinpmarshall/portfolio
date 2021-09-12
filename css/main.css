@@ -230,6 +230,10 @@ nav ul li a:hover {
     border: 5px solid #028090;
 }
 
+.gallery-item span {
+    font-weight: 700;
+}
+
 #work h3 {
     margin: 10px;
 }
