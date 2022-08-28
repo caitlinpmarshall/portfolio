@@ -227,7 +227,9 @@ nav ul li a:hover {
 }
 
 .gallery-item .thumbnail:hover {
-    border: 5px solid #028090;
+    /* border: 5px solid #028090; */
+    box-shadow: 0 3px 10px #028090;
+
 }
 
 .gallery-item span {
